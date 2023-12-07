@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3dmax</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/OIP.ico" />
+  </head>
+
+  <body>
+    <!--------------------------------navigation bar-------------------------------->
+    <div id="di01">
+      <ul>
+        <li>
+          <a href="code013.html">Home</a>
+        </li>
+        <li>
+          <a href="code015.html">Contact us</a>
+        </li>
+        <li>
+          <a id="displayButton">About us</a>
+        </li>
+        <li>
+          <a href="">X</a>
+        </li>
+        <li>
+          <a href="code016.html">Profile</a>
+        </li>
+        <li>
+          <img id="i01" src="assets/img/account.png" alt="account photo" />
+        </li>
+
+        <li>
+          <p id="a01" href="">Profile</p>
+        </li>
+        <li>
+          <img id="i02" src="assets/img/download (1).png" alt="search" />
+        </li>
+        <li>
+          <p id="p01">search...</p>
+        </li>
+      </ul>
+    </div>
+    <iframe id="myFrame" itemid="iframe-1" src="code014.html"></iframe>
+    <!------------------------------------------------------------->
+    <div id="di04">
+      <img id="i06" src="assets/img/account.png" alt="account">
+      <br>
+      <hr>
+      <h1 class="h1">name:</h1>
+      <p>mehrsam</p>
+      <h2 class="h1">gamil:</h2>
+      <p>mehrsammohseni@gamil.com</p>
+    </div>
+    <!--  -->
+    <script>
+        document.getElementById("displayButton").onclick = function () {
+          document.getElementById("myFrame").style.display = "inline";
+          document.getElementById("myFrame").style.backgroundColor = "#85E098";
+          var tables = document.getElementsByClassName("table");
+          for (var i = 0; i < tables.length; i++) {
+            tables[i].style.display = "none";
+          }
+        };
+      </script>
+      <!--------------------------------------foroter-------------------------------------->
+    </body>
+  </html>
+  

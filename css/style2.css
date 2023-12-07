@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+/* ?----------------------id----------------------?*/
+#div-1 {
+  width: 800px;
+  margin: 0 auto;
+}

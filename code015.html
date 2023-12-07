@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3dmax</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>3dmax</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="icon" type="image/x-icon" href="assets/img/OIP.ico" />
+      </head>
+
+      <body id="body2">
+        <!--------------------------------navigation bar-------------------------------->
+        <div id="di01">
+          <ul>
+            <li>
+              <a href="code013.html">Home</a>
+            </li>
+            <li>
+              <a href="code015.html">Contact us</a>
+            </li>
+            <li>
+              <a id="displayButton">About us</a>
+            </li>
+            <li>
+              <a href="">X</a>
+            </li>
+            <li>
+              <a href="code016.html">Profile</a>
+            </li>
+            <li>
+              <img id="i01" src="assets/img/account.png" alt="account photo" />
+            </li>
+
+            <li>
+              <p id="a01" href="">Profile</p>
+            </li>
+            <li>
+              <img id="i02" src="assets/img/download (1).png" alt="search" />
+            </li>
+            <li>
+              <p id="p01">search...</p>
+            </li>
+          </ul>
+        </div>
+        <iframe id="myFrame" src="code014.html"></iframe>
+        <!---------------------------------main part--------------------------------->
+        <div id="div-2">
+          <div>
+            <h1>ways to Contact</h1>
+            <a href="mailto:mehrsammohseni@gmail.com"
+              >email:«mehrsammohseni@gmail.com»</a
+            ><br />
+            <a href="tel:09022027708">phone number:«09022027708»</a>
+            <h2>address</h2>
+            <address>moallem street , sari</address>
+            <a
+              href="https://www.google.com/maps/dir//36.5713812,53.0740784/@36.5709805,53.0728768,17z?entry=ttu"
+            >
+              <img
+                src="assets/img/the location.png"
+                alt="the location"
+                id="i02"
+              />
+            </a>
+          </div>
+        </div>
+        <!------------------------------------------------------------------>
+        <script>
+          document.getElementById("displayButton").onclick = function () {
+            document.getElementById("myFrame").style.display = "inline";
+            document.getElementById("myFrame").style.backgroundColor =
+              "#85E098";
+            var div = document.getElementById("div-2");
+            for (var i = 0; i < div.length; i++) {
+              div[i].style.display = "none";
+            };
+          };
+        </script>
+      </body>
+    </html>
+  </body>
+</html>
